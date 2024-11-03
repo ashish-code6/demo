@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <table align="center" cellspacing="0" border="1" cellpadding="10">
+            <caption>
+                <h1> Rowspan & Colspan in Table</h1>
+            </caption>
+            <tr>
+                <th> Emp Id </th>
+                <th> Employee Name </th>
+                <th> Department </th>
+                <th> Salary </th>
+                <th> Date of joining </th>
+                <th> Reporting To </th>
+                <th> Emplyment Type </th>
+            </tr>
+
+            <tr>
+                <td> 1 </td>
+                <td> Suresh Kumar </td>
+                <td> Marketing </td>
+                <td> Rs.15000 </td>
+                <td align="center" rowspan="2" valign="top">1/08/2024</td>
+                <!-- for top to bottom use valign and for left and right -->
+                 <td rowspan="3" align="center"> Murli TL </td>
+                 <td rowspan="2">Permanent</td>
+            </tr>
+            <tr>
+                <td> 2 </td>
+                <td> Rohit </td>
+                <td> HR </td>
+                <td> Rs.180000 </td>
+            </tr>
+            <tr>
+                <td> 3 </td>
+                <td> Mahesh </td>
+                <td> Devlopment </td>
+                <td> Rs.18500 </td>
+                <td> 10-05-2024 </td>
+                <td rowspan="2"> Contract </td>
+            </tr>
+            <tr>
+                <td> 4 </td>
+                <td> Umesh </td>
+                <td> Marketing </td>
+                <td> Rs.25000 </td>
+                <td> 26-08-2015 </td>
+                <td align="center"> Mohit </td>
+            </tr>
+            <tr> 
+                <td>5</td>
+                <td>Manish</td>
+                <td> IT </td>
+                <td> Rs.12000 </td>
+                <td colspan="3" align="center">20-07-2024</td>
+                
+
+            </tr>
+
+        </table>
+    </body>
+</html>

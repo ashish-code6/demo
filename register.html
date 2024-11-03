@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Regitser </title>
+  </head>
+  <body>
+  <table align="center" cellpadding="15">
+    <tr>
+      <td> <a href="mycontact.html"/> Contact Us </a></td>
+      <td> <a href="login.html"> Login </a></td>
+      <td> <a href="register.html"> Create Account </a></td>
+      <td> <a href="enquiry.html"> Enquiry </a></td>
+    </tr>
+
+  </table>
+  <hr color="grey" size="10"/>
+
+  <table align="center"cellspacing="15" width="40%">
+    <caption>
+        <h1> Create Account </h1>
+        <font color="red"> * Marked fileds are Require </font>
+    </caption>
+    <tr>
+        <th>First Name <font color="red">*</font></th>
+        <td> <input type="text" required/></td>
+        <th> Last Name <font color="red">*</font></th>
+        <td> <input type="text" required/></td>
+    </tr>
+    <tr>
+        <th> Email Id <font color="red">*</font></th>
+        <td> <input type="email" required/></td>
+        <th> Mobile No <font color="red">*</font></th>
+        <td> <input type="number" required/></td>
+    </tr>
+    <tr>
+        <th> Gender </th>
+        <td> 
+         <input type="radio" name="gender" value="MALE"/>Male
+         <input type="radio" name="gender" value="FEMALE"/>Female
+        <th>DOB</th>
+        <td><input type="datetime-local"/> </td>
+        </td>
+    </tr>
+
+        <tr>
+            <th> Hobbies </th>
+            <td colspan="3">
+                <input type="checkbox"/>Reading
+                <input type="checkbox"/>Writing
+                <input type="checkbox"/>Dancing
+                <input type="checkbox"/>Singing
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <fieldset>
+                    <legend>Your Full Address </legend>
+                    <textarea rows="8" cols="80"></textarea>
+                </fieldset>
+
+            </td>
+        </tr>
+
+        <tr>
+            <th> State </th>
+            <td>
+                <select>
+                    <option> Choose </option>
+                    <option> Karnatka </option>
+                    <option> MP </option>
+                    <option> AP </option>
+                </select>
+            </td>
+            <th> City </th>
+            <td>
+                <select>
+                    <option> Choose </option>
+                    <option> Chennai </option>
+                    <option> Bhopal </option>
+                    <option> Banglore </option>
+                </select>
+
+            </td>
+
+        </tr>
+
+        <tr>
+            <td colspan="4">
+                <input type="checkbox" checked/> I Agree on Terms & Conditions 
+                <details>
+                    <summary> Read More.....</summary>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet consectetur.
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </details>
+            </td>
+        </tr>
+           
+    <tr>
+        <th colspan="4">
+            <button type="submit"> Submit </button>
+            <button type="reset">Reset </button>
+        </th>
+    </tr>
+
+  </table>
+</body>
+</html>

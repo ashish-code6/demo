@@ -1,0 +1,203 @@
+HTML - Hypertext markup language
+        the html has collections of pre-defined tags.
+        The html use to create basics structure of webpage.
+        html tags use to collect input form user and also use to display output to user via browser.
+        The html tags has limitation on property/attribute and values.due to this limitation other
+        languages are required to complete project requirement.
+
+CSS - Cascading Style Sheet.
+        it has collections of only property and values.
+        it use to change look and feel of html
+
+    How html & css work ?
+        Responsive webpage=HTML(tags) + CSS(property & values)
+
+html Tag ?
+    <>  open tag
+    </> close tag
+
+Type of tag in html ?
+    1.input tag - it use to collect input  from user.
+    2.output tag - it use to display output to user.
+
+structure / syntax of html tags
+    1. dependent tag    - those html tags, that has open and close seprate 
+        example 
+            <html>  </html>
+            <abc>   </abc>
+            <h1>    </h1>
+    2. independent tag 
+        example -   Those html tags, has only open
+            <br>
+            <hr>
+            <img>
+        Note - React JSX do not work independent.
+    
+    3. self closing - those html tags that open and close together
+        example
+            <br/>
+            <hr/>
+            <img/>
+        Note - it work with all js library and framework.
+
+    The Behavior of html tags ?
+        1.  block level tag - those html tags, that print statement in new line by default.
+        2.  inline tag - those html tags, that print statement in same line(side by side) by default.
+---------------------------------------------30/07/2024-----------------------------------------------------------
+    what are the valid extensions of html documnet ?
+            .html - best for digital marketing
+            .htm
+
+    Different name of html tags in other language.
+        <h1>    =>html =>tag
+        <h1>    =>CSS  =>selector
+        <h1>    =>js   =>element
+        <h1>    =>React =>JSX element
+
+    structure of html documnet?
+        html start to html end called documnet
+        =>head
+            ->Analytics / Digital marketing
+            ->library (css,js,other library too)
+
+        =>body
+            ->for input & output
+            ->Note - use suitable tag based on contents.
+
+    use of h1 to h6 ?
+        ->it called heading tag .
+        ->it use to create headline of webpage.
+        ->use h1 min and max 1 time in each page for better user experience and better visibility
+            on google search.
+
+    p - use p tag to display text data in webpage. but keep a limit of min and max contents for better
+        page perfomance.
+        Min limit 1 line of text data.
+        Max limit up to 5 line of text data for better readability.
+
+    for small length text (up to 130 chars)
+        label, b, i, u, strong, font , em....., small
+
+    Type of LIST in html ?
+        1.  OL -  Order list 
+                Type="1"
+                Type="A"
+                Type="a"
+                Type="I"
+                Type="i"
+
+        2.  UL -  Unorder list
+                Type="dics"
+                Type="square"
+                Type="circle"
+                Type="none"
+
+
+        3.  DL - Defination list  
+                dt - Defination list - it used to display headline of contents.
+                dd - Defination details - it used to display details about the contents.
+
+---------------------------------------------31/07/2024------------------------------------------------------------------------------------
+    Table in html ?
+
+    1.Method
+        =>Table
+            ->caption
+            ->tr(table row)
+                ->th(table heading)
+                ->td(table data)
+
+    2.Method
+        =>table
+            ->thead : It cover upper part of table.
+                ->tr
+                    ->th
+            ->tbody : It cover middle part of table.
+                -tr
+                    ->td
+            ->tfoot : It cover bottom part of table.
+                ->tr
+                    ->th
+    =>property in table , tr, th, td, thead, tbody, tfoot
+        1. align(left, center, right, justify)
+        2. border - 
+        3. cellspacing - it apply space outside th, td 
+        4. cellpadding - it apply space inside th, td
+
+    =>table.html
+------------------------------------------------01/08/2024--------------------------------------------------
+            Practical on table
+------------------------------------------------02/08/2024--------------------------------------------------
+    How to link the pages
+        <a href="" target="" title=""> Text To Link </a>
+
+    -> 'a' is tag name
+    ->  href is property name that use to set path/url for next page.
+    ->  target it is property that define where the next should open , it is 6 Type
+    -> title it for digital marketing, it introduce to search engine that what is purpose of this link.
+
+    Type of target ?
+        1.  _self   =>It open next in same tab. it is default target.
+        2.  _new    =>It open next page in new tab but only 1st click.
+        3.  _blank  =>It open next page in new tab but every click.
+
+    Using js
+        4.  _child
+        5.  _parent
+    
+    Using html frameset
+        6. user-defined - we can create own target but frameset not used it is a old tag.
+
+--------------------------------------------05/08/2024-------------------------------------------------------
+
+    Input Elements / tags
+    
+        ->text  - 1 line input.
+        ->number  - 1 line input.
+        ->email  - 1 line input.
+        ->password  - 1 line input.
+        ->textarea - Multiline line input.
+        ->checkbox  - choose option.
+        ->radio - check 1 or multiple.
+        ->file  - upload any type of file.
+        ->date  - choose data from date picker.
+        ->color - choose color from color cube.
+        ->button    - for user action.
+            ->submit
+            ->reset
+            ->button
+
+-------------------------------------------06/08/2024------------------------------------------------------
+    List of property for input elements
+        name    - it use create a container that hold the value given by user.
+        placeholder - it use to set the limit of input as no of char(tex, email, password, textarea)
+        size    - it rezise the width of text, emial, password.
+        tabindex - it set the sequence of cursor.
+        readonly - it make readonly, user can not edit but value can  pass to backend
+        disabled - it make readonly, user can not edit but value cannot  pass to backend
+        value - it use to display default value in input element
+        class - it use to link html with css and javascrit.
+        id  -  it use to link html with css and javascrit.
+        enctype - it use to encode any file as attachment while uploding from user pc to server.
+                  without encode the 7 layer of network do not allow to upload any file.
+
+                  
+    form
+        action  - it is set the url for backend where the form data should get submitted.
+        method  - it set type of communication between client and server.
+                    get - synchronous
+                        it pass the data from client to server and server to client to server but data
+                        will be visibile and it is marked a unsecure communication.
+
+                    post - synchronous
+                        it pass the data from client to server and server to client to server but data
+                        will be fully hidden.
+
+                    put-  asynchronous
+                        it send request to server for updating all values.
+
+                    patch- asynchronous
+                        it send request to server for upadting only modified value.
+
+                    delete- asynchronous
+                        it send request to server for deleting specific record.
